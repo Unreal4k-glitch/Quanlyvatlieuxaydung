@@ -40,7 +40,19 @@ public class BanHanggiaodien extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         khoiTaoGiaoDien();
-        taiDuLieu();
+
+        // Neu co loi ket noi CSDL, van mo giao dien de kiem tra.
+        try {
+            taiDuLieu();
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Khong tai duoc du lieu tu co so du lieu: " + e.getMessage(),
+                    "Loi tai du lieu",
+                    JOptionPane.WARNING_MESSAGE
+            );
+            e.printStackTrace();
+        }
     }
 
     
