@@ -23,13 +23,14 @@ public class DatabaseConnection {
     public static Connection getConnection() {
 
         try {
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             Connection conn = DriverManager.getConnection(URL);
-
+            
             System.out.println("Ket noi SQL Server thanh cong!");
 
             return conn;
 
-        } catch (SQLException e) {
+        } catch (Exception e) {
 
             System.out.println("Ket noi that bai!");
             e.printStackTrace();
