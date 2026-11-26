@@ -1,7 +1,7 @@
 
-package quan.ly.vat.lieu.xay.dung;
+package quanlyvatlieuxaydung;
 
-import quan.ly.vat.lieu.xay.dung.dao.*;
+import quanlyvatlieuxaydung.dao.*;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package quan.ly.vat.lieu.xay.dung.dao;
+package quanlyvatlieuxaydung.dao;
 
 import java.math.BigDecimal;
 import java.sql.Connection;
@@ -12,9 +12,9 @@ import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.util.List;
 
-import quan.ly.vat.lieu.xay.dung.DatabaseConnection;
-import quan.ly.vat.lieu.xay.dung.HoaDon;
-import quan.ly.vat.lieu.xay.dung.ChiTietHoaDon;
+import quanlyvatlieuxaydung.DatabaseConnection;
+import quanlyvatlieuxaydung.HoaDon;
+import quanlyvatlieuxaydung.ChiTietHoaDon;
 
 public class BanHangDAO {
     public boolean themHoaDonVaChiTiet(

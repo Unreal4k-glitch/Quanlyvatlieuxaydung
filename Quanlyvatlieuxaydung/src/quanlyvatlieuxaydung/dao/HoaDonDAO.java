@@ -1,8 +1,8 @@
 
-package quan.ly.vat.lieu.xay.dung.dao;
+package quanlyvatlieuxaydung.dao;
 
-import quan.ly.vat.lieu.xay.dung.DatabaseConnection;
-import quan.ly.vat.lieu.xay.dung.HoaDon;
+import quanlyvatlieuxaydung.DatabaseConnection;
+import quanlyvatlieuxaydung.HoaDon;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

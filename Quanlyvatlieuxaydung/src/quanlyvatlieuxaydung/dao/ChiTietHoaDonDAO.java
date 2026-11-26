@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package quan.ly.vat.lieu.xay.dung.dao;
-import quan.ly.vat.lieu.xay.dung.DatabaseConnection;
-import quan.ly.vat.lieu.xay.dung.ChiTietHoaDon;
+package quanlyvatlieuxaydung.dao;
+import quanlyvatlieuxaydung.DatabaseConnection;
+import quanlyvatlieuxaydung.ChiTietHoaDon;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
