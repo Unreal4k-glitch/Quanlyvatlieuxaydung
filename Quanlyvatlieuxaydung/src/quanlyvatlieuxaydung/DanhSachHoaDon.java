@@ -2,14 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package quan.ly.vat.lieu.xay.dung;
-import quan.ly.vat.lieu.xay.dung.dao.HoaDonDAO;
+package quanlyvatlieuxaydung;
+import quanlyvatlieuxaydung.dao.HoaDonDAO;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.util.List;
-import quan.ly.vat.lieu.xay.dung.dao.ChiTietHoaDonDAO;
+import quanlyvatlieuxaydung.dao.ChiTietHoaDonDAO;
 public class DanhSachHoaDon extends JFrame{
     private JTable tblHoaDon;
     private DefaultTableModel model;

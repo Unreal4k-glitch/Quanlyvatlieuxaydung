@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package quan.ly.vat.lieu.xay.dung.dao;
+package quanlyvatlieuxaydung.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import quan.ly.vat.lieu.xay.dung.DatabaseConnection;
+import quanlyvatlieuxaydung.DatabaseConnection;
 public class NhanVienDAO {
         public List<Object[]> getDanhSachNhanVien() {
 
